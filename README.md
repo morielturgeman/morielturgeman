@@ -18,13 +18,13 @@
 
 ## About
 
-M.Sc. Computer Science student at **Ben-Gurion University of the Negev**, focused on
-**Machine Learning**, **Deep Learning** and **Computer Vision**.
+Computer Science **B.Sc. graduate (GPA 92)** with a specialization in Deep Learning, starting an
+**M.Sc. in Computer Science at Ben-Gurion University of the Negev** in October 2026.
 
-I build and train models, then turn them into working systems — end to end: data and
-degradation modeling, architecture, training, evaluation, and deployment behind a real API.
-Work spans computer vision, video restoration, generative models, LLM/RAG systems and
-production AI pipelines.
+I work on **Agentic AI and LLM systems**, **Deep Learning** and **Computer Vision** — and I build
+them as production systems, not notebooks. That means the whole path: data and degradation
+modeling, architecture and training, evaluation harnesses, then serving it behind a real API with
+persistence, tool calling and retrieval underneath.
 
 ---
 
@@ -39,7 +39,11 @@ degradation modeling and fine-tuned on **H.264 codec-aware** degradations (V4) t
 gap to real-world compressed footage.
 
 <p align="center">
-  <img src="assets/upscale-demo.gif" alt="UPscale: bicubic ×4 versus BasicVSR ×4 on real compressed footage — 480p to 1080p">
+  <video src="https://github.com/morielturgeman/morielturgeman/raw/main/assets/upscale-demo.mp4" width="880" controls muted playsinline></video>
+</p>
+
+<p align="center">
+  <sub>Side-by-side: 144p source vs. UPscale ×4 reconstruction — <a href="https://github.com/morielturgeman/morielturgeman/raw/main/assets/upscale-demo.mp4">play the comparison</a> if the player doesn't load.</sub>
 </p>
 
 <table>
@@ -71,22 +75,6 @@ gap to real-world compressed footage.
 `PyTorch` `BasicVSR` `SPyNet` `OpenCV` `FastAPI` `NumPy`
 
 ➜ &nbsp;**[View the repository](https://github.com/morielturgeman/Upscale)**
-
-<br>
-
-### Sketch-to-Image Translation
-
-A **pix2pix conditional GAN** reproduction — **U-Net generator** + **PatchGAN discriminator** —
-translating edge sketches to RGB images on Oxford Flowers102, with a controlled experiment on
-the discriminator's receptive field: **70×70 vs 34×34 PatchGAN**, isolating how patch scale
-trades off local texture sharpness against global coherence.
-
-<p align="center">
-  <img src="assets/sketch-demo.png" alt="Sketch-to-image: 128×128 edge sketch translated to an RGB flower image by the pix2pix generator" width="686">
-</p>
-
-**Stack** &nbsp;
-`TensorFlow` `Keras` `OpenCV` `pix2pix` `cGAN`
 
 <br>
 
@@ -126,16 +114,24 @@ served behind real APIs.
 
 <table>
   <tr>
-    <td valign="top"><b>Deep Learning / ML</b></td>
-    <td><code>PyTorch</code> <code>TensorFlow</code> <code>Keras</code> <code>scikit-learn</code> <code>NumPy</code> <code>OpenCV</code></td>
+    <td valign="top"><b>ML / AI</b></td>
+    <td><code>PyTorch</code> <code>TensorFlow</code> <code>OpenCV</code> <code>LangGraph</code> <code>LangChain</code> — CNNs, GANs, RAG, LLMs, Computer Vision, Image Signal Processing (ISP)</td>
   </tr>
   <tr>
-    <td valign="top"><b>AI Systems</b></td>
-    <td><code>FastAPI</code> <code>LangGraph</code> <code>PostgreSQL</code> <code>pgvector</code> <code>Docker</code></td>
+    <td valign="top"><b>Algorithms</b></td>
+    <td>Conventional image processing · algorithm design · research &amp; analysis</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Web &amp; Full-Stack</b></td>
+    <td><code>FastAPI</code> <code>Node.js</code> <code>React</code> <code>PostgreSQL</code> <code>pgvector</code> <code>MongoDB</code> <code>REST APIs</code></td>
   </tr>
   <tr>
     <td valign="top"><b>Languages</b></td>
-    <td><code>Python</code> <code>C++</code> <code>Java</code> <code>C</code> <code>SQL</code> <code>JavaScript</code> <code>TypeScript</code></td>
+    <td><code>Python</code> <code>Java</code> <code>C++</code> <code>C</code> <code>JavaScript</code> <code>TypeScript</code> <code>SQL</code> <code>HTML</code> <code>CSS</code></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Tooling</b></td>
+    <td><code>Git</code> <code>Docker</code> <code>MCP</code></td>
   </tr>
 </table>
 
@@ -149,11 +145,13 @@ served behind real APIs.
 
 ## Education
 
-**M.Sc. Computer Science** — Ben-Gurion University of the Negev · 2026–2028
+**M.Sc. Computer Science** — Ben-Gurion University of the Negev · from October 2026
 
 **B.Sc. Computer Science** — College of Management Academic Studies · 2023–2026 · GPA 92
 
-<sub>Relevant coursework: Machine Learning · Deep Learning · Computer Vision</sub>
+<sub>Specialization in Deep Learning · Relevant coursework: Machine Learning · Deep Learning · Computer Vision</sub>
+
+<sub>Colman Dev Club — collaborative full-stack projects with React, Node.js, Express and Git.</sub>
 
 ---
 
