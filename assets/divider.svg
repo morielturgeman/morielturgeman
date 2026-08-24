@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="4" viewBox="0 0 880 4" role="presentation">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#30363d"/>
+      <stop offset="82%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulse" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="190" y2="0">
+      <stop offset="0%"   stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#a371f7" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        values="-200 0; 880 0; -200 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="1.25" width="880" height="1.5" rx=".75" fill="url(#base)"/>
+  <rect x="0" y="1.25" width="880" height="1.5" rx=".75" fill="url(#pulse)"/>
+</svg>

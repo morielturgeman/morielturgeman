@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Moriel Turgeman — Machine Learning · Deep Learning · Computer Vision" width="880">
+  <img src="assets/hero.svg" alt="Moriel Turgeman — Agentic AI · Deep Learning · Computer Vision" width="880">
 </p>
 
 <p align="center">
@@ -18,15 +18,15 @@
 
 ## About
 
-Computer Science **B.Sc. graduate (GPA 92)** with a specialization in Deep Learning, starting an
-**M.Sc. in Computer Science at Ben-Gurion University of the Negev** in October 2026.
+Computer Science **B.Sc. graduate** with a specialization in Deep Learning, and an
+**M.Sc. in Computer Science student at Ben-Gurion University of the Negev**.
 
 I work on **Agentic AI and LLM systems**, **Deep Learning** and **Computer Vision** — and I build
-them as production systems, not notebooks. That means the whole path: data and degradation
-modeling, architecture and training, evaluation harnesses, then serving it behind a real API with
-persistence, tool calling and retrieval underneath.
+them as production systems. That means the whole path: data and degradation modeling, architecture
+and training, evaluation harnesses, then serving it behind a real API with persistence, tool
+calling and retrieval underneath.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="880"></p>
 
 ## Featured Work
 
@@ -39,35 +39,18 @@ degradation modeling and fine-tuned on **H.264 codec-aware** degradations (V4) t
 gap to real-world compressed footage.
 
 <p align="center">
-  <video src="https://github.com/morielturgeman/morielturgeman/raw/main/assets/upscale-demo.mp4" width="880" controls muted playsinline></video>
+  <a href="https://github.com/morielturgeman/morielturgeman/raw/main/assets/upscale-demo.mp4">
+    <img src="assets/upscale-demo.gif" alt="UPscale: 144p source versus ×4 restored output, side by side" width="880">
+  </a>
 </p>
 
 <p align="center">
-  <sub>Side-by-side: 144p source vs. UPscale ×4 reconstruction — <a href="https://github.com/morielturgeman/morielturgeman/raw/main/assets/upscale-demo.mp4">play the comparison</a> if the player doesn't load.</sub>
+  <sub>Real 256×144 input · real 1024×576 model output — <a href="https://github.com/morielturgeman/morielturgeman/raw/main/assets/upscale-demo.mp4">watch the full clip in HD</a></sub>
 </p>
 
-<table>
-  <tr>
-    <th align="left">Model</th>
-    <th align="center">PSNR</th>
-    <th align="center">SSIM</th>
-  </tr>
-  <tr>
-    <td align="left"><b>UPscale V4</b> — codec-aware fine-tune</td>
-    <td align="center"><b>28.87 dB</b></td>
-    <td align="center"><b>0.7986</b></td>
-  </tr>
-  <tr>
-    <td align="left">Bicubic ×4 baseline</td>
-    <td align="center">25.87 dB</td>
-    <td align="center">0.6918</td>
-  </tr>
-  <tr>
-    <td align="left">Improvement</td>
-    <td align="center"><b>+3.00 dB</b></td>
-    <td align="center"><b>+0.1068</b></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/metrics.svg" alt="PSNR 28.87 dB versus 25.87 dB bicubic; SSIM 0.7986 versus 0.6918" width="880">
+</p>
 
 <sub>Evaluated on REDS4 over 430 evaluation windows. V3 → V4 codec fine-tuning adds +0.36 dB on compressed video.</sub>
 
@@ -108,7 +91,7 @@ served behind real APIs.
 
 ➜ &nbsp;**[AI Security Investigator](https://github.com/morielturgeman/Ai-Security-Investigator)** — multi-source incident correlation and triage with structured LLM outputs and an evaluation harness.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="880"></p>
 
 ## Tech Stack
 
@@ -135,17 +118,17 @@ served behind real APIs.
   </tr>
 </table>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="880"></p>
 
 ## Current Focus
 
 `Deep Learning` &nbsp;`Computer Vision` &nbsp;`Video Restoration / Super-Resolution` &nbsp;`Generative Models` &nbsp;`LLM · RAG · Agentic Systems` &nbsp;`Production ML Engineering`
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="880"></p>
 
 ## Education
 
-**M.Sc. Computer Science** — Ben-Gurion University of the Negev · from October 2026
+**M.Sc. Computer Science** — Ben-Gurion University of the Negev · in progress
 
 **B.Sc. Computer Science** — College of Management Academic Studies · 2023–2026 · GPA 92
 
@@ -153,7 +136,7 @@ served behind real APIs.
 
 <sub>Colman Dev Club — collaborative full-stack projects with React, Node.js, Express and Git.</sub>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="880"></p>
 
 ## Contact
 

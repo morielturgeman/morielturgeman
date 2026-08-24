@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="212" viewBox="0 0 880 212" role="img" aria-label="UPscale V4 versus bicubic x4 on REDS4: PSNR 28.87 dB versus 25.87 dB, SSIM 0.7986 versus 0.6918">
+  <title>UPscale V4 vs. bicubic ×4 — PSNR 28.87 dB (+3.00) · SSIM 0.7986 (+0.1068)</title>
+  <defs>
+    <linearGradient id="good" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb"/><stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .m    { font-family:"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
+    .tag  { fill:#6e7681; font-size:11px; letter-spacing:1.6px; }
+    .grp  { fill:#c9d1d9; font-size:13px; letter-spacing:.8px; }
+    .row  { fill:#8b949e; font-size:12px; }
+    .val  { fill:#8b949e; font-size:12.5px; }
+    .valb { fill:#e6edf3; font-size:12.5px; font-weight:700; }
+    .dlt  { fill:#3fb950; font-size:12px; font-weight:700; }
+  </style>
+
+  <rect x="1" y="1" width="878" height="210" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text class="m tag" x="32" y="34">MODEL PERFORMANCE</text>
+  <text class="m tag" x="848" y="34" text-anchor="end">REDS4 · 430 EVALUATION WINDOWS</text>
+  <line x1="32" y1="48" x2="848" y2="48" stroke="#21262d"/>
+
+  <!-- PSNR -->
+  <g>
+    <text class="m grp" x="32" y="78">PSNR (dB)</text>
+    <text class="m row" x="32" y="110">bicubic ×4</text>
+    <rect x="128" y="99" width="210" height="13" rx="3" fill="#161b22"/>
+    <rect x="128" y="99" width="0" height="13" rx="3" fill="#484f58">
+      <animate attributeName="width" from="0" to="181" dur="1s" begin="0.2s" fill="freeze" calcMode="spline" keySplines=".2 .7 .3 1"/>
+    </rect>
+    <text class="m val" x="348" y="110" opacity="0">25.87<animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.0s" fill="freeze"/></text>
+
+    <text class="m row" x="32" y="142">UPscale V4</text>
+    <rect x="128" y="131" width="210" height="13" rx="3" fill="#161b22"/>
+    <rect x="128" y="131" width="0" height="13" rx="3" fill="url(#good)">
+      <animate attributeName="width" from="0" to="202" dur="1.15s" begin="0.5s" fill="freeze" calcMode="spline" keySplines=".2 .7 .3 1"/>
+    </rect>
+    <text class="m valb" x="348" y="142" opacity="0">28.87<animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.4s" fill="freeze"/></text>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin="1.8s" fill="freeze"/>
+      <rect x="128" y="164" width="72" height="20" rx="10" fill="#0f2f1a" stroke="#238636"/>
+      <text class="m dlt" x="164" y="178" text-anchor="middle">+3.00 dB</text>
+    </g>
+  </g>
+
+  <line x1="440" y1="66" x2="440" y2="190" stroke="#21262d"/>
+
+  <!-- SSIM -->
+  <g>
+    <text class="m grp" x="472" y="78">SSIM</text>
+    <text class="m row" x="472" y="110">bicubic ×4</text>
+    <rect x="568" y="99" width="210" height="13" rx="3" fill="#161b22"/>
+    <rect x="568" y="99" width="0" height="13" rx="3" fill="#484f58">
+      <animate attributeName="width" from="0" to="145" dur="1s" begin="0.35s" fill="freeze" calcMode="spline" keySplines=".2 .7 .3 1"/>
+    </rect>
+    <text class="m val" x="788" y="110" opacity="0">0.6918<animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.15s" fill="freeze"/></text>
+
+    <text class="m row" x="472" y="142">UPscale V4</text>
+    <rect x="568" y="131" width="210" height="13" rx="3" fill="#161b22"/>
+    <rect x="568" y="131" width="0" height="13" rx="3" fill="url(#good)">
+      <animate attributeName="width" from="0" to="168" dur="1.15s" begin="0.65s" fill="freeze" calcMode="spline" keySplines=".2 .7 .3 1"/>
+    </rect>
+    <text class="m valb" x="788" y="142" opacity="0">0.7986<animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.55s" fill="freeze"/></text>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin="1.95s" fill="freeze"/>
+      <rect x="568" y="164" width="78" height="20" rx="10" fill="#0f2f1a" stroke="#238636"/>
+      <text class="m dlt" x="607" y="178" text-anchor="middle">+0.1068</text>
+    </g>
+  </g>
+</svg>
